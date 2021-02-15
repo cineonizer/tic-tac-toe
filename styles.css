@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.score-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 700px;
+    height: 100px;
+    margin: 40px auto;
+    user-select: none;
+}
+
+#x-score-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 250px;
+    height: 50px;
+    padding: 0 20px;
+    font-size: 1.75em;
+    box-shadow: 0px 2px 5px rgba(151, 146, 153, 0.3);
+    border-radius: 10px;
+}
+
+#o-score-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 250px;
+    height: 50px;
+    padding: 0 20px;
+    font-size: 1.75em;
+    box-shadow: 0px 2px 5px rgba(151, 146, 153, 0.3);
+    border-radius: 10px;
+}
+
+.main-container {
+    background-color: rgb(0, 181, 162);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 500px;
+    transform: translate(-50%,-53%);
+}
+
+.gameboard {
+    background-color: rgb(0, 151, 135);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.cell {
+    background-color: rgb(0, 181, 162);
+    width: 130px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    font-size: 130px;
+}
+
+.x-symbol {
+    color: rgb(74, 74, 74);
+}
+
+.o-symbol {
+    color: rgb(241, 232, 207);
+}
+
+.number {
+    color: rgb(106, 106, 106)
+}
+
+.restart-button {
+    text-align: center;
+    margin-top: 525px;
+    user-select: none;
+    cursor: pointer;
+    color: rgb(0, 181, 162);
+    font-weight: bold;
+    font-size: larger;
+}
+
+.result {
+    display: none;
+    text-align: center;
+    font-size: 130px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    user-select: none;
+
+}
+
+#result-symbol {
+    display: flex;
+    justify-content: center;
+    font-size: 250px;
+    line-height: 220px;
+}
+
+#result-text {
+    font-size: 50px;
+    font-weight: bold;
+}
