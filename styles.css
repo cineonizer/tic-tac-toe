@@ -83,12 +83,15 @@ body {
 
 .restart-button {
     text-align: center;
-    margin-top: 550px;
     user-select: none;
     cursor: pointer;
     color: rgb(0, 181, 162);
     font-weight: bold;
     font-size: larger;
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translate(-50%, 10%);
 }
 
 .result {
