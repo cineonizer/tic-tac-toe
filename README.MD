@@ -1,6 +1,6 @@
 # Tic Tac Toe
 
-This is a project from the curriculum of [The Odin Project's Full Stack JavaScript Path](https://www.theodinproject.com/courses/javascript/lessons/tic-tac-toe-javascript).
+This is the [Tic Tac Toe](https://www.theodinproject.com/courses/javascript/lessons/tic-tac-toe-javascript) project from the curriculum of [The Odin Project's Full Stack JavaScript Path](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript).
 
 #### What is The Odin Project?
 
